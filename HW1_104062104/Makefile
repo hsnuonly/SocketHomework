@@ -1,0 +1,7 @@
+all: HW1_104062104_Ser.cpp HW1_104062104_Cli.cpp
+	g++ HW1_104062104_Ser.cpp -o HW1_104062104_Ser
+	g++ HW1_104062104_Cli.cpp -o HW1_104062104_Cli
+
+clean:
+	rm HW1_104062104_Ser
+	rm HW1_104062104_Cli
